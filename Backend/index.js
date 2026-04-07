@@ -6,7 +6,7 @@ import connectDB from "./config/db.js";
 import userRoutes from "./routes/authRoutes.js"; 
 import productRoutes from "./routes/productRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
-import router from "./routes/DashboardRoutes.js";
+import router from "./routes/dashboardRoutes.js";
 import subscriptionRoutes from "./routes/subscriptionRoutes.js";
 import cron from "node-cron";
 import { deleteExpiredUsers } from "./cron/deleteExpiredUsers.js";
