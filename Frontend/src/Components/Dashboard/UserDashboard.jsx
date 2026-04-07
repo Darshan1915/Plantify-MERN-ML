@@ -1,6 +1,6 @@
-// src/Components/dashboard/UserDashboard.jsx
+// src/Components/Dashboard/UserDashboard.jsx
 import React, { useEffect, useState, useContext } from "react";
-import { getUserDashboard } from "../../api/dashboardApi";
+import { getUserDashboard } from "../../api/DashboardApi";
 import { getWeatherSummary } from "../../api/weatherApi";
 import { AuthContext } from "../../context/AuthContext";
 import Loader from "../Loader";
@@ -115,7 +115,7 @@ export default function UserDashboard() {
 
         <div className="flex gap-3">
           <button
-            onClick={() => (window.location.href = "/dashboard/user")}
+            onClick={() => (window.location.href = "/Dashboard/user")}
             className="px-4 py-2 bg-emerald-600 text-white rounded-lg shadow hover:scale-[1.01]"
           >
             Update Profile

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import UserDashboard from "../Components/dashboard/UserDashboard";
-import SellerDashboard from "../Components/dashboard/SellerDashboard";
-import AdminDashboard from "../Components/dashboard/AdminDashboard";
+import UserDashboard from "../Components/Dashboard/UserDashboard";
+import SellerDashboard from "../Components/Dashboard/SellerDashboard";
+import AdminDashboard from "../Components/Dashboard/AdminDashboard";
 import AlertMessage from "../Components/AlertMessage";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";

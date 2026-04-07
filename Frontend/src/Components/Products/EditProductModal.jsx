@@ -1,4 +1,4 @@
-// src/Components/products/EditProductModal.jsx
+// src/Components/Products/EditProductModal.jsx
 import React, { useState } from "react";
 import { X } from "lucide-react";
 import { updateProduct } from "../../api/productApi";

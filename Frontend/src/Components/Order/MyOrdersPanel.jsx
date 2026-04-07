@@ -148,7 +148,7 @@ export default function MyOrdersPanel() {
                     <button
                       className="flex items-center gap-1 px-3 py-2 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition"
                       onClick={() =>
-                        window.location.assign(`/products/${o.product._id}`)
+                        window.location.assign(`/Products/${o.product._id}`)
                       }
                     >
                       View <ArrowRight size={16} />
@@ -173,7 +173,7 @@ export default function MyOrdersPanel() {
           </p>
 
           <button
-            onClick={() => window.location.assign("/products")}
+            onClick={() => window.location.assign("/Products")}
             className="mt-4 px-5 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700"
           >
             Browse Products

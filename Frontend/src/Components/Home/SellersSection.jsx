@@ -30,7 +30,7 @@ export default function TopSellersSection() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/products");
+    navigate("/Products");
   };
 
   return (

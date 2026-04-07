@@ -1,7 +1,7 @@
 // src/api/productApi.js
 import axios from "axios";
 
-const PRODUCTS_API = `${process.env.REACT_APP_BACKEND_URL}/api/products`;
+const PRODUCTS_API = `${process.env.REACT_APP_BACKEND_URL}/api/Products`;
 
 
 // AUTH HEADER

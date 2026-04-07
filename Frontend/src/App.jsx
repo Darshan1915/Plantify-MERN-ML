@@ -42,7 +42,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="/products" element={<ProductDashboard />} />
+      <Route path="/Products" element={<ProductDashboard />} />
 
       {/* ML TOOLS PAGE (Private Route) */}
       <Route
@@ -78,7 +78,7 @@ export default function App() {
 
       {/* USER DASHBOARD */}
       <Route
-        path="/dashboard/user"
+        path="/Dashboard/user"
         element={
           <PrivateRoute>
             <RoleRoute allowed={["user"]}>
@@ -90,7 +90,7 @@ export default function App() {
 
       {/* SELLER DASHBOARD */}
       <Route
-        path="/dashboard/seller"
+        path="/Dashboard/seller"
         element={
           <PrivateRoute>
             <RoleRoute allowed={["seller"]}>
@@ -102,7 +102,7 @@ export default function App() {
 
       {/* ADMIN */}
       <Route
-        path="/dashboard/admin"
+        path="/Dashboard/admin"
         element={
           <PrivateRoute>
             <RoleRoute allowed={["admin"]}>

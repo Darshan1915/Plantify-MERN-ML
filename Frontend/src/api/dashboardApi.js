@@ -1,7 +1,7 @@
-// src/api/dashboardApi.js
+// src/api/DashboardApi.js
 import axios from "axios";
 
-const API_URL = `${process.env.REACT_APP_BACKEND_URL}/api/dashboard`;
+const API_URL = `${process.env.REACT_APP_BACKEND_URL}/api/Dashboard`;
 
 const authHeader = () => {
   const token = localStorage.getItem("token");

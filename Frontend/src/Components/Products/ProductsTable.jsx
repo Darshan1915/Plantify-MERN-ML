@@ -1,4 +1,4 @@
-// src/Components/products/ProductsTable.jsx
+// src/Components/Products/ProductsTable.jsx
 import React, { useEffect, useState, useContext, useMemo } from "react";
 import { getAllProducts } from "../../api/productApi";
 import { AuthContext } from "../../context/AuthContext";

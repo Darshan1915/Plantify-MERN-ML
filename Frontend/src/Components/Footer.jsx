@@ -70,7 +70,7 @@ export default function Footer() {
             </h4>
 
             <ul className="space-y-2 text-sm">
-              <li><a href="/products" className="hover:text-emerald-400 transition">Marketplace</a></li>
+              <li><a href="/Products" className="hover:text-emerald-400 transition">Marketplace</a></li>
               <li><a href="/about" className="hover:text-emerald-400 transition">Community</a></li>
               <li><a href="/ml-tools" className="hover:text-emerald-400 transition">AI Tools</a></li>
               <li><a href="/about" className="hover:text-emerald-400 transition">About Us</a></li>

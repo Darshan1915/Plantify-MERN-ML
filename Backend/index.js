@@ -6,7 +6,7 @@ import connectDB from "./config/db.js";
 import userRoutes from "./routes/authRoutes.js"; 
 import productRoutes from "./routes/productRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
-import router from "./routes/dashboardRoutes.js";
+import router from "./routes/DashboardRoutes.js";
 import subscriptionRoutes from "./routes/subscriptionRoutes.js";
 import cron from "node-cron";
 import { deleteExpiredUsers } from "./cron/deleteExpiredUsers.js";
@@ -45,9 +45,9 @@ app.get("/", (req, res) => {
 
 // Routes
 app.use("/api/users", userRoutes);
-app.use("/api/products", productRoutes);
+app.use("/api/Products", productRoutes);
 app.use("/api/orders", orderRoutes);
-app.use("/api/dashboard", router);
+app.use("/api/Dashboard", router);
 app.use("/api/subscription", subscriptionRoutes);
 // app.use("/api/potato", potatoRoutes);
 // app.use("/api/crop", cropRoutes);

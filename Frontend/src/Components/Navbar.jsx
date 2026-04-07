@@ -54,22 +54,22 @@ export default function Navbar() {
 /* ---------------------- NAV ITEMS ---------------------- */
 const GUEST = [
   { name: "Home", href: "/", icon: <Leaf size={16} /> },
-  { name: "Products", href: "/products", icon: <Package size={16} /> },
+  { name: "Products", href: "/Products", icon: <Package size={16} /> },
   { name: "About", href: "/about", icon: <BadgeCheck size={16} /> },
 ];
 
 const USER = [
   { name: "Home", href: "/", icon: <Leaf size={16} /> },
-  { name: "Products", href: "/products", icon: <Package size={16} /> },
+  { name: "Products", href: "/Products", icon: <Package size={16} /> },
   { name: "Orders", href: "/orders", icon: <Package size={16} /> },
   { name: "Subscription", href: "/subscription", icon: <BadgeCheck size={16} /> },
   { name: "ML Tools", href: "/ml-tools", icon: <BarChart3 size={16} /> },
   { name: "About", href: "/about", icon: <BadgeCheck size={16} /> },
-  { name: "Dashboard", href: "/dashboard/user", icon: <User size={16} /> },
+  { name: "Dashboard", href: "/Dashboard/user", icon: <User size={16} /> },
 ];
 
 const ADMIN = [
-  { name: "Admin Dashboard", href: "/dashboard/admin" },
+  { name: "Admin Dashboard", href: "/Dashboard/admin" },
   { name: "Users", href: "products", icon: <Package size={16} /> },
   // { name: "Analytics", href: "/admin/analytics" },
   { name: "About", href: "/about",icon: <BadgeCheck size={16} /> },
