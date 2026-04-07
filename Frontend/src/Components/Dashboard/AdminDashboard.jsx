@@ -1,6 +1,6 @@
 // src/Components/Dashboard/AdminDashboard.jsx
 import React, { useEffect, useState } from "react";
-import { getAdminDashboard } from "../../api/DashboardApi";
+import { getAdminDashboard } from "../../api/dashboardApi";
 import Loader from "../Loader";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line } from "recharts";
 

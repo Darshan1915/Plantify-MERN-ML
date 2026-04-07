@@ -1,6 +1,6 @@
 // src/Components/Dashboard/UserDashboard.jsx
 import React, { useEffect, useState, useContext } from "react";
-import { getUserDashboard } from "../../api/DashboardApi";
+import { getUserDashboard } from "../../api/dashboardApi";
 import { getWeatherSummary } from "../../api/weatherApi";
 import { AuthContext } from "../../context/AuthContext";
 import Loader from "../Loader";
