@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+// src/Components/Navbar.jsx
 import React, { useState, useEffect, useContext, useRef } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
@@ -19,7 +19,7 @@ import {
 
 import { AuthContext } from "../context/AuthContext";
 import { getMe } from "../api/authapi";
-import CompleteProfile from "../components/Profile/CompleteProfile";
+import CompleteProfile from "../Components/Profile/CompleteProfile";
 
 export default function Navbar() {
   const navigate = useNavigate();

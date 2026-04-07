@@ -1,7 +1,7 @@
 // src/pages/SubscriptionPage.jsx
 import React, { useContext, useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import toast from "react-hot-toast";
 import { AuthContext } from "../context/AuthContext";
 import { upgradeSubscription } from "../api/subscriptionApi";

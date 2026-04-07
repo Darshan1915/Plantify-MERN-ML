@@ -1,4 +1,4 @@
-// src/components/dashboard/UserDashboard.jsx
+// src/Components/dashboard/UserDashboard.jsx
 import React, { useEffect, useState, useContext } from "react";
 import { getUserDashboard } from "../../api/dashboardApi";
 import { getWeatherSummary } from "../../api/weatherApi";
@@ -240,7 +240,7 @@ export default function UserDashboard() {
 }
 
 /* =======================================================
-    SMALL REUSABLE COMPONENTS
+    SMALL REUSABLE Components
 ======================================================= */
 
 function SummaryCard({ label, value }) {

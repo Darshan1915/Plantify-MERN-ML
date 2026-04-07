@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/ml",  // your Node backend
+  baseURL: `${process.env.REACT_APP_BACKEND_URL}/api/ml` ,  // your Node backend
 });
 
 // Attach token automatically (if stored in localStorage)

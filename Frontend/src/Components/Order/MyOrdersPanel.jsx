@@ -1,4 +1,4 @@
-// src/components/orders/MyOrdersPanel.jsx
+// src/Components/orders/MyOrdersPanel.jsx
 import React, { useState, useEffect } from "react";
 import { getMyOrders, cancelOrder } from "../../api/orderApi";
 import StatusBadge from "./StatusBadge";

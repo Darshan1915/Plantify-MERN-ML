@@ -1,10 +1,10 @@
 // src/pages/OrdersPage.jsx
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"; // ⭐ ADDED
-import MarketplacePanel from "../components/Order/MarketplacePanel";
-import MyOrdersPanel from "../components/Order/MyOrdersPanel";
-import AnalyticsPanel from "../components/Order/AnalyticsPanel";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer"; // ⭐ ADDED
+import MarketplacePanel from "../Components/Order/MarketplacePanel";
+import MyOrdersPanel from "../Components/Order/MyOrdersPanel";
+import AnalyticsPanel from "../Components/Order/AnalyticsPanel";
 import toast from "react-hot-toast";
 
 export default function OrdersPage() {

@@ -18,7 +18,7 @@ import StatsFooter from "../Components/MLtools/StatsFooter";
 
 /**
  * MLTools.jsx — Primary page.
- * - Single <style> block below contains crystal/glass theme and animations used across components.
+ * - Single <style> block below contains crystal/glass theme and animations used across Components.
  * - Keep structure identical to your original; visual improvements and animations applied via CSS classes.
  */
 
@@ -418,7 +418,7 @@ export default function MLTools() {
   // Derived UI
   const scansLeft = isPro ? Infinity : Math.max(0, DAILY_LIMIT - usage);
 
-  // Main JSX (keeps original structure, only refactored into components)
+  // Main JSX (keeps original structure, only refactored into Components)
   return (
     <div className="page-fade m-0 p-0 bg-[#F5F3ED] overflow-x-hidden">
       <InlineStyles />

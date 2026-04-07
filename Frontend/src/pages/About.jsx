@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { Leaf, Droplet, Sun, Users, Zap } from "lucide-react";
 
 export default function About() {

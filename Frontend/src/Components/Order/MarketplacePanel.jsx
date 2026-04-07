@@ -1,4 +1,4 @@
-// src/components/orders/MarketplacePanel.jsx
+// src/Components/orders/MarketplacePanel.jsx
 import React, { useState, useEffect, useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { getAllProducts } from "../../api/productApi";

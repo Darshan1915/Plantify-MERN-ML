@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/orders";
+const ORDERS_API = `${process.env.REACT_APP_BACKEND_URL}/api/orders`;
+
 
 const authHeader = () => ({
   headers: {

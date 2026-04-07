@@ -1,4 +1,4 @@
-// src/components/product/SellerOrdersTable.jsx
+// src/Components/product/SellerOrdersTable.jsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -10,7 +10,7 @@ export default function SellerOrdersTable() {
     setLoading(true);
     try {
       const token = localStorage.getItem("token");
-      const res = await axios.get("http://localhost:5000/api/orders/seller", {
+      const res = await axios.get("process.env.REACT_APP_BACKEND_URL/api/orders/seller", {
         headers: { Authorization: token ? `Bearer ${token}` : "" },
       });
       setOrders(res.data.orders || []);

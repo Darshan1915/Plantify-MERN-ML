@@ -1,4 +1,4 @@
-// src/components/global/AlertMessage.jsx
+// src/Components/global/AlertMessage.jsx
 import React, { useEffect, useState } from "react";
 import {
   AlertTriangle,

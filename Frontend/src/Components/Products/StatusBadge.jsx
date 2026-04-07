@@ -1,4 +1,4 @@
-// src/components/product/StatusBadge.jsx
+// src/Components/product/StatusBadge.jsx
 import React from "react";
 
 export default function StatusBadge({ stock = 0, isOutdated = false }) {

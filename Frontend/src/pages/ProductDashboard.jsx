@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../Components/Navbar";
 
-import TopStats from "../components/products/TopStats";
-import ProductsTable from "../components/products/ProductsTable";
-import MyProductsTable from "../components/products/MyProductsTable";
-import SellerOrdersTable from "../components/products/SellerOrdersTable";
-import AddProductModal from "../components/products/AddProductModal";
-import EditProductModal from "../components/products/EditProductModal";
-import Footer from "../components/Footer";
+import TopStats from "../Components/products/TopStats";
+import ProductsTable from "../Components/products/ProductsTable";
+import MyProductsTable from "../Components/products/MyProductsTable";
+import SellerOrdersTable from "../Components/products/SellerOrdersTable";
+import AddProductModal from "../Components/products/AddProductModal";
+import EditProductModal from "../Components/products/EditProductModal";
+import Footer from "../Components/Footer";
 
 import {
   LayoutGrid,

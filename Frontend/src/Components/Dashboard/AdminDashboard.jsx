@@ -1,4 +1,4 @@
-// src/components/dashboard/AdminDashboard.jsx
+// src/Components/dashboard/AdminDashboard.jsx
 import React, { useEffect, useState } from "react";
 import { getAdminDashboard } from "../../api/dashboardApi";
 import Loader from "../Loader";

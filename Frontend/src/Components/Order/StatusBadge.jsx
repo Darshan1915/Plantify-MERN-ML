@@ -1,4 +1,4 @@
-// src/components/orders/StatusBadge.jsx
+// src/Components/orders/StatusBadge.jsx
 import React from "react";
 import {
   Clock,

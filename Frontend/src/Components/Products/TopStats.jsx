@@ -1,4 +1,4 @@
-// src/components/product/TopStats.jsx
+// src/Components/product/TopStats.jsx
 import React, { useEffect, useState } from "react";
 import { getAllProducts } from "../../api/productApi";
 import { BarChart, Bar, ResponsiveContainer } from "recharts";

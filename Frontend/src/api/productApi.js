@@ -1,7 +1,8 @@
 // src/api/productApi.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/products";
+const PRODUCTS_API = `${process.env.REACT_APP_BACKEND_URL}/api/products`;
+
 
 // AUTH HEADER
 const token = localStorage.getItem("token");

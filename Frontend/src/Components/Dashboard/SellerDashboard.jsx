@@ -1,4 +1,4 @@
-// src/components/dashboard/SellerDashboard.jsx
+// src/Components/dashboard/SellerDashboard.jsx
 import React, { useEffect, useState, useContext } from "react";
 import { getSellerDashboard } from "../../api/dashboardApi";
 import { getWeatherSummary } from "../../api/weatherApi";
